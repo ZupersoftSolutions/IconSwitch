@@ -17,7 +17,7 @@ allprojects {
 
 Step 2. Add the dependency
 ```
-implementation 'com.github.ZupersoftSolutions:v1.0.5'
+implementation 'com.github.ZupersoftSolutions:IconSwitch:1.2'
 ```
 ## Sample
 Please see the [sample app](sample/src/main) for a library usage example.
