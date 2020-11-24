@@ -4,10 +4,20 @@ The library is a custom Switch widget inspired by this [dribbble shot](https://d
 
 ![GifSample](https://github.com/polyak01/IconSwitch/blob/master/data/3J8gYHy.gif)
 
-## Gradle 
-Add this into your dependencies block.
+## Gradle
+Step 1. Add the JitPack repository to your build file
 ```
-implementation 'com.github.parminder93:IconSwitch:v1.0.5'
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+```
+implementation 'com.github.ZupersoftSolutions:v1.0.5'
 ```
 ## Sample
 Please see the [sample app](sample/src/main) for a library usage example.
